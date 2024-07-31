@@ -11,7 +11,7 @@ export default function Home() {
   return (
     <>
       <Navbar />
-      <main className="pt-[150px] px-4 lg:px-20 xl:px-40">
+      <main className="pt-[150px] px-4 lg:px-20 2xl:px-40">
         <h1>Hero</h1>
         <TakeMyFreeAssessment/>
         <BookAFreeConsultation/>
