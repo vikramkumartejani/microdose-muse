@@ -13,7 +13,7 @@ const Navbar = () => {
   return (
     <div className="bg-black w-full fixed top-0 z-40">
       {/* Navbar Container */}
-      <div className="max-w-[1920px] w-full mx-auto flex items-center justify-between h-[120px] px-4 lg:px-20 2xl:px-40">
+      <div className="border-b border-[#D9D9D9] max-w-[1920px] w-full mx-auto flex items-center justify-between h-[120px] px-4 lg:px-20 2xl:px-40">
         {/* Menu Button */}
         <button
           className="flex items-center justify-center"

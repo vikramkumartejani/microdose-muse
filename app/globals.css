@@ -23,3 +23,10 @@ body{
   width: 100%;
   opacity: 20px;
 }
+
+@font-face {
+  font-family: 'AlethiaPro';
+  src: url('/fonts/alethiapro-regular.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
