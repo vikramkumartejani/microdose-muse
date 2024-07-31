@@ -8,11 +8,12 @@ export const metadata = {
 };
 
 export default function RootLayout({ children }) {
+  
   return (
     <html lang="en">
       <body>
-        <AOSInitializer/>
         <Navbar/>
+        <AOSInitializer/>
         {children}
       </body>
     </html>

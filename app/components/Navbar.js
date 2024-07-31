@@ -11,7 +11,7 @@ const Navbar = () => {
   };
 
   return (
-    <div className="bg-black w-full fixed">
+    <div className="bg-black w-full fixed top-0 z-40">
       {/* Navbar Container */}
       <div className="max-w-[1920px] w-full mx-auto flex items-center justify-between h-[120px] px-4 lg:px-20 2xl:px-40">
         {/* Menu Button */}
@@ -25,7 +25,7 @@ const Navbar = () => {
             alt="Menu"
             width={46}
             height={46}
-            loading = 'lazy'
+            loading="lazy"
           />
         </button>
 
@@ -35,7 +35,7 @@ const Navbar = () => {
           alt="Logo"
           width={321}
           height={83}
-          loading = 'lazy'
+          loading="lazy"
           className="md:w-[321px] w-[250px]"
           data-aos="zoom-in"
         />
@@ -53,7 +53,7 @@ const Navbar = () => {
       {isMenuOpen && (
         <div
           className="fixed inset-0 flex flex-col items-center justify-center bg-black z-50 transition-transform transform"
-          data-aos="fade-bottom"
+          data-aos="fade-in"
           data-aos-delay="500"
         >
           {/* Close Button */}

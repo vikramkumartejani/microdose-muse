@@ -10,6 +10,9 @@ module.exports = {
       backgroundImage: {
         
       },
+      fontFamily:{
+        roboto: ['Roboto', 'sans-serif'],
+      }
     },
   },
   plugins: [],
