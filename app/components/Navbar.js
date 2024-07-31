@@ -68,7 +68,7 @@ const Navbar = () => {
           <div className="flex flex-col items-center space-y-6">
             <button
               className="bg-[#DCB88C] rounded-[10px] w-[178px] h-[58px] text-white text-[18px] leading-[18px] font-semibold"
-              data-aos="fade-right"
+              data-aos="fade-bottom"
               data-aos-delay="400"
             >
               Log In
