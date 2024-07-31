@@ -12,7 +12,11 @@ module.exports = {
       },
       fontFamily:{
         roboto: ['Roboto', 'sans-serif'],
+        poppins: ['Poppins', 'sans-serif'],
         alethia: ['AlethiaPro', 'sans-serif'],
+      },
+      boxShadow:{
+        custom: '0px -16px 40px 0px #0000001F',
       }
     },
   },
