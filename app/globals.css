@@ -1,40 +1,52 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: "Inter", sans-serif;
 }
 
-body{
+body {
   font-family: "Inter", sans-serif;
 }
 
-.footerBg{
-  background-image: url('/assets/footer-bg.jpg');
+@font-face {
+  font-family: "AlethiaPro";
+  src: url("/fonts/alethiapro-regular.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.footerBg {
+  background-image: url("/assets/footer-bg.jpg");
   background-size: cover;
   background-position: center;
   width: 100%;
   opacity: 20px;
 }
 
-.imgbg{
-  background-image: url('/assets/sign-me-up-please.svg');
+.imgbg {
+  background-image: url("/assets/sign-me-up-please.svg");
   width: 100%;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-@font-face {
-  font-family: 'AlethiaPro';
-  src: url('/fonts/alethiapro-regular.otf') format('opentype');
-  font-weight: normal;
-  font-style: normal;
+.bg-thrive {
+  background-image: url("/assets/thrive.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.consultationbg {
+  background-image: url("/assets/consultation.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
