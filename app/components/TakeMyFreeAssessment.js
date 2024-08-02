@@ -5,7 +5,7 @@ const TakeMyFreeAssessment = () => {
   return (
     <div
       className="relative h-screen w-full bg-cover bg-center"
-      style={{ backgroundImage: "url('/assets/take-my-free-assessment.jpg')" }}
+      style={{ backgroundImage: "url('/assets/take-my-free-assessment.jpg')", backgroundAttachment:'fixed' }}
     >
       <div className="absolute inset-0 bg-custom opacity-70"></div> {/* Changed bg-custom to bg-black */}
       <div className="absolute inset-0 flex lg:flex-row flex-col items-center gap-10 md:gap-20 lg:gap-0 justify-center text-white px-5 sm:px-10 xl:pl-12 2xl:pl-16 py-24">
