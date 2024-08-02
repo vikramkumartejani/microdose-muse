@@ -8,7 +8,7 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        
+        custom: "linear-gradient(90deg, #002530 0%, #367667 164.1%)"
       },
       fontFamily:{
         roboto: ['Roboto', 'sans-serif'],

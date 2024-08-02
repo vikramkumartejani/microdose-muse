@@ -50,3 +50,114 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+
+.bg-image-asse {
+  background-image: url("/assets/take-my-free-assessment.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+
+.bg-assessment {
+  background-image: url('/assets/take-my-free-assessment.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+
+
+/* checkbox settings 👇 */
+
+.ui-checkbox {
+  --primary-color: #1E55A8  ;
+  --secondary-color: #fff;
+  --primary-hover-color: #1E55A8  ;
+  /* checkbox */
+  --checkbox-diameter: 20px;
+  --checkbox-border-radius: 5px;
+  --checkbox-border-color: #D0D5DD;
+  --checkbox-border-width: 1px;
+  --checkbox-border-style: solid;
+  background-color: transparent;
+  background: transparent;
+  /* checkmark */
+  --checkmark-size: 1.2;
+}
+
+ 
+
+.ui-checkbox {
+  width: 20px;
+  height: 20px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  width: var(--checkbox-diameter);
+  height: var(--checkbox-diameter);
+  border-radius: var(--checkbox-border-radius);
+  background: var(--secondary-color);
+  border: var(--checkbox-border-width) var(--checkbox-border-style) var(--checkbox-border-color);
+  -webkit-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+  background-color: transparent;
+  background: transparent;
+  cursor: pointer;
+  position: relative;
+}
+
+.ui-checkbox::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+   border-radius: inherit;
+  background-color: transparent;
+  background: transparent;
+  opacity: 0;
+}
+
+.ui-checkbox::before {
+  top: 43%;
+  left: 48%;
+  content: "";
+  position: absolute;
+  width: 5px;
+  height: 8px;
+  border-radius:1px;
+  background-color: transparent;
+  border-right: 2px solid  #1E55A8;
+  border-bottom: 2px solid #1E55A8;
+  /* background-color: transparent; */
+  /* background: transparent; */
+  opacity: 0;
+}
+
+/* actions */
+
+ 
+
+.ui-checkbox:checked {
+  background: var(--primary-color);
+  border-color: #1E55A8;
+  background-color: transparent;
+}
+
+.ui-checkbox:checked::before {
+  opacity: 1;
+  -webkit-transform: translate(-50%, -50%) rotate(45deg) scale(var(--checkmark-size));
+  -ms-transform: translate(-50%, -50%) rotate(45deg) scale(var(--checkmark-size));
+  transform: translate(-50%, -50%) rotate(45deg) scale(var(--checkmark-size));
+  -webkit-transition: all 0.2s cubic-bezier(0.12, 0.4, 0.29, 1.46) 0.1s;
+  -o-transition: all 0.2s cubic-bezier(0.12, 0.4, 0.29, 1.46) 0.1s;
+  transition: all 0.2s cubic-bezier(0.12, 0.4, 0.29, 1.46) 0.1s;
+}
+ 
