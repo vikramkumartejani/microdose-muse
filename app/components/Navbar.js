@@ -35,6 +35,7 @@ const Navbar = () => {
           width={321}
           height={83}
           className="md:w-[321px] w-[250px]"
+          priority
         />
 
         {/* Log In Button */}
