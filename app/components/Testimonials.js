@@ -46,12 +46,12 @@ const Testimonials = () => {
     prevArrow: <PrevArrow />,
   };
   return (
-    <div data-aos="fade-up" className='relative px-4 py-[60px] lg:py-[100px] overflow-hidden'>
+    <div className='relative px-4 py-[60px] lg:py-[100px] overflow-hidden'>
       <Image src='/assets/left.svg' alt='image' width={400} height={500} className=' absolute -top-[100px] -left-40 lg:left-0' />
       <Image src='/assets/right.svg' alt='image' width={400} height={500} className=' absolute top-[200px] -right-48 sm:-right-40 lg:right-0' />
 
       {/* Testimonials */}
-      <div className='relative'>
+      <div className='relative' data-aos="fade-up">
         <div className="relative max-w-[1150px] w-full mx-auto" style={{ height: '650px' }}>
           <h1 className="text-[#454545] text-[50px] md:text-[58px] leading-[81px] font-alethia font-normal text-center mt-24">Testimonials</h1>
           <Slider {...settings} className="mt-20 text-center">
@@ -81,7 +81,7 @@ const Testimonials = () => {
       </div>
 
       {/* Banner */}
-      <div className='mt-[100px] relative max-w-[1500px] w-full mx-auto bg-cover bg-bottom min-h-[445px] rounded-[52px] py-10' style={{ backgroundImage: "url('/assets/testimonials.jpg')" }}>
+      <div data-aos="fade-up" className='mt-[100px] relative max-w-[1500px] w-full mx-auto bg-cover bg-bottom min-h-[445px] rounded-[52px] py-10' style={{ backgroundImage: "url('/assets/testimonials.jpg')" }}>
         <div className='absolute inset-0 bg-custom-one opacity-50 rounded-[52px]'></div>
         <div className='relative flex items-center lg:flex-row flex-col-reverse justify-start px-5 md:px-16 gap-[50px] lg:gap-[100px]'>
           <div>

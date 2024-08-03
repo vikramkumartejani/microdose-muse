@@ -4,8 +4,8 @@ import React from 'react';
 
 const Footer = () => {
   return (
-    <div data-aos="fade-up" className="bg-[#DCB88C] px-3 relative z-10" >
-      <div className='w-full pt-14 flex items-center justify-center flex-col' >
+    <div  className="bg-[#DCB88C] px-3 relative z-10" >
+      <div className='w-full pt-14 flex items-center justify-center flex-col'data-aos="fade-up" >
         <Image src='/assets/footer-logo.svg' alt='footer-logo' width={298} height={69} />
         <nav className='flex gap-5 flex-wrap items-center justify-center sm:gap-9 py-8'>
           <Link href='/about' className='text-white text-[16px] leading-[24px] font-normal'>About</Link>
