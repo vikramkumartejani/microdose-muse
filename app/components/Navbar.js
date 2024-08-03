@@ -18,7 +18,6 @@ const Navbar = () => {
         <button
           className="flex items-center justify-center"
           onClick={toggleMenu}
-          data-aos="fade-bottom"
         >
           <Image
             src="/assets/menu.svg"
@@ -41,8 +40,7 @@ const Navbar = () => {
         {/* Log In Button */}
         <button
           className="hidden md:block bg-[#DCB88C] rounded-[10px] w-[178px] h-[58px] text-white text-[18px] leading-[18px] font-semibold"
-          data-aos="fade-bottom"
-        >
+         >
           Log In
         </button>
       </div>
@@ -51,7 +49,6 @@ const Navbar = () => {
       {isMenuOpen && (
         <div
           className="fixed inset-0 flex flex-col items-center justify-center bg-black z-50 transition-transform transform"
-          data-aos="fade-in"
           data-aos-delay="500"
         >
           {/* Close Button */}
@@ -66,8 +63,6 @@ const Navbar = () => {
           <div className="flex flex-col items-center space-y-6">
             <button
               className="bg-[#DCB88C] rounded-[10px] w-[178px] h-[58px] text-white text-[18px] leading-[18px] font-semibold"
-              data-aos="fade-bottom"
-              data-aos-delay="400"
             >
               Log In
             </button>

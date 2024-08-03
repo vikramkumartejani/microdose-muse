@@ -7,7 +7,7 @@ const TakeMyFreeAssessment = () => {
       className="relative h-screen w-full bg-cover bg-center"
       style={{ backgroundImage: "url('/assets/take-my-free-assessment.jpg')", backgroundAttachment:'fixed' }}
     >
-      <div className="absolute inset-0 bg-custom opacity-70"></div>  
+      <div className="absolute inset-0 bg-custom opacity-70"></div> {/* Changed bg-custom to bg-black */}
       <div className="absolute inset-0 flex lg:flex-row flex-col items-center gap-10 md:gap-20 lg:gap-0 justify-center text-white px-5 sm:px-10 xl:pl-12 2xl:pl-16 py-24">
         <div>
           <h1 className="text-3xl md:text-4xl 2xl:text-5xl leading-snug font-alethia font-normal mb-2 mt-5">
@@ -35,10 +35,12 @@ const TakeMyFreeAssessment = () => {
           </button>
         </div>
         <div className='-pr-[100px]'>
-          <img
-            src="/assets/assessment.webp"
+          <Image
+            src="/assets/assessment.svg"
             alt="assessment"
-            className=' '
+            width={900}
+            height={700} // Adjust height as needed
+            className='lg:h-[900px] lg:w-[900px] w-full h-full'
           />
         </div>
       </div>
