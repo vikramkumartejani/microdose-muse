@@ -1,14 +1,18 @@
-import Image from 'next/image';
-import React from 'react';
+import Image from "next/image";
+import React from "react";
 
 const TakeMyFreeAssessment = () => {
   return (
     <div
-    //  data-aos="fade-up"
-      className="relative h-screen w-full bg-cover bg-center pt-96"
-      style={{ backgroundImage: "url('/assets/take-my-free-assessment.jpg')", backgroundAttachment:'fixed' }}
+      //  data-aos="fade-up"
+      className="relative lg:min-h-[120vh] md:min-h-[1300px] sm:min-h-[1080px] min-h-[990px] w-full bg-cover bg-center pt-96"
+      style={{
+        backgroundImage: "url('/assets/take-my-free-assessment.jpg')",
+        backgroundAttachment: "fixed",
+      }}
     >
-      <div className="absolute inset-0 bg-custom opacity-70"></div> {/* Changed bg-custom to bg-black */}
+      <div className="absolute inset-0 bg-custom opacity-70"></div>{" "}
+      {/* Changed bg-custom to bg-black */}
       <div className="absolute inset-0 flex lg:flex-row flex-col items-center gap-10 md:gap-20 lg:gap-0 justify-center text-white px-5 sm:px-10 xl:pl-12 2xl:pl-16 py-24">
         <div>
           <h1 className="text-3xl md:text-4xl 2xl:text-5xl leading-snug font-alethia font-normal mb-2 mt-5">
@@ -35,18 +39,18 @@ const TakeMyFreeAssessment = () => {
             Take My Free Assessment
           </button>
         </div>
-        <div className='-pr-[100px]'>
+        <div className="-pr-[100px]">
           <Image
             src="/assets/assessment.svg"
             alt="assessment"
-            width={900}
-            height={700} // Adjust height as needed
-            className='lg:h-[900px] lg:w-[900px] w-full h-full'
+            width={100}
+            height={100}
+            className="lg:h-[900px] lg:w-[900px] w-full h-full"
           />
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
 export default TakeMyFreeAssessment;

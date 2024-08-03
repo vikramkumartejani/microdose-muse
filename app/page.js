@@ -10,7 +10,7 @@ export default function Home() {
   return (
     <>
       <main className="pt-[120px] w-full">
-        <div className="bg-black w-full h-screen relative">
+        <div className="bg-black w-full min-h-screen flex items-center justify-center">
           {/* <Image
             src='/assets/pan-left.svg'
             alt="pan-left"
@@ -25,7 +25,7 @@ export default function Home() {
             height={363}
             className="absolute -bottom-[230px] right-0 z-30"
           /> */}
-          <div className="flex items-center justify-center min-h-full">
+          <div className="flex items-center justify-center">
             <h1 className="max-w-[823px] mx-auto w-full h-full text-white text-[30px] md:text-[54px] leading-[54px] text-center font-alethia">
               Rewire Your Brain And Unlock Your Greatest Potential.
             </h1>
