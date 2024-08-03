@@ -4,7 +4,7 @@ import React from 'react';
 const TakeMyFreeAssessment = () => {
   return (
     <div
-     data-aos="fade-up"
+    //  data-aos="fade-up"
       className="relative h-screen w-full bg-cover bg-center"
       style={{ backgroundImage: "url('/assets/take-my-free-assessment.jpg')", backgroundAttachment:'fixed' }}
     >
