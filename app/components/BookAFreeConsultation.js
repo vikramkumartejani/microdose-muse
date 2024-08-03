@@ -3,7 +3,7 @@ import React from 'react'
 
 const BookAFreeConsultation = () => {
   return (
-    <div className='consultationbg w-full py-32 px-4 md:px-10 2xl:pl-[136px] 2xl:pr-20'>
+    <div data-aos="fade-up" className='consultationbg w-full py-32 px-4 md:px-10 2xl:pl-[136px] 2xl:pr-20'>
       <div className='w-full flex justify-between lg:flex-row flex-col gap-16 lg:gap-5 max-w-[1920px] mx-auto'>
         <div>
           <h2 className='text-white text-[30px] md:text-[48px] leading-[42px] md:leading-[67px] font-alethia lg:max-w-[1043px] w-full'>My mission is to connect individuals to their inner power, fostering their highest growth and transformation.</h2>

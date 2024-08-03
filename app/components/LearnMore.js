@@ -3,7 +3,7 @@ import React from 'react'
 
 const LearnMore = () => {
   return (
-    <div className='w-full'>
+    <div data-aos="fade-up" className='w-full'>
       <Image src='/assets/line-design.svg' alt="line-design" width={1920} height={107} className="w-full" />
       <div className='bg-thrive -mt-8 py-[170px] lg:py-[265px] w-full px-4'>
         <div className='bg-[#FFFFFFCC] border border-[#FFFFFF] max-w-[1232px] w-full mx-auto py-10 px-4 text-center'>

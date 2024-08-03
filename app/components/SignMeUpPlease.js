@@ -3,7 +3,7 @@ import React from 'react'
 
 const SignMeUpPlease = () => {
   return (
-    <div className='w-full imgbg relative  py-32 flex items-center justify-end px-4 md:px-10 xl:px-20'>
+    <div data-aos="fade-up" className='w-full imgbg relative  py-32 flex items-center justify-end px-4 md:px-10 xl:px-20'>
       <div className='flex items-center lg:items-start lg:flex-row flex-col gap-16 mb-80 lg:mb-24 xl:gap-32'>
         <Image src='/assets/book1.png' alt='Book' width={413} height={583} className='md:h-[583px] w-[413px] rounded-[15px] shadow-custom -rotate-2' />
         <div className='w-full'>

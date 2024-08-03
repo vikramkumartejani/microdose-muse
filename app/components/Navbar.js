@@ -35,13 +35,13 @@ const Navbar = () => {
           width={321}
           height={83}
           className="md:w-[321px] w-[250px]"
-          priority
         />
 
         {/* Log In Button */}
         <button
           className="hidden md:block bg-[#DCB88C] rounded-[10px] w-[178px] h-[58px] text-white text-[18px] leading-[18px] font-semibold"
-         >
+          data-aos="fade-bottom"
+        >
           Log In
         </button>
       </div>
@@ -64,6 +64,7 @@ const Navbar = () => {
           <div className="flex flex-col items-center space-y-6">
             <button
               className="bg-[#DCB88C] rounded-[10px] w-[178px] h-[58px] text-white text-[18px] leading-[18px] font-semibold"
+              data-aos-delay="400"
             >
               Log In
             </button>
