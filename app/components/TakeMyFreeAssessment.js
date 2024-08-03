@@ -5,7 +5,7 @@ const TakeMyFreeAssessment = () => {
   return (
     <div
     //  data-aos="fade-up"
-      className="relative h-screen w-full bg-cover bg-center"
+      className="relative h-screen w-full bg-cover bg-center pt-96"
       style={{ backgroundImage: "url('/assets/take-my-free-assessment.jpg')", backgroundAttachment:'fixed' }}
     >
       <div className="absolute inset-0 bg-custom opacity-70"></div> {/* Changed bg-custom to bg-black */}
