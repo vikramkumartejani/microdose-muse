@@ -3,9 +3,9 @@ import React from 'react'
 
 const LearnMore = () => {
   return (
-    <div data-aos="fade-up" className='w-full'>
-      <Image src='/assets/line-design.svg' alt="line-design" width={1920} height={107} className="w-full" />
-      <div className='bg-thrive -mt-8 py-[170px] lg:py-[265px] w-full px-4'>
+    <div data-aos="fade-up" className='w-full relative'>
+      <Image src='/assets/line-design.svg' alt="line-design" width={1920} height={107} className="w-full absolute top-0" />
+      <div className='bg-thrive py-[170px] lg:py-[265px] w-full px-4'>
         <div className='bg-[#FFFFFFCC] border border-[#FFFFFF] max-w-[1232px] w-full mx-auto py-10 px-4 text-center'>
           <h2 className='text-[#454545] text-[45px] leading-[63px] font-alethia font-normal'>THRIVE</h2>
           <p className='text-[#454545] text-[20px] md:text-[24px] leading-[36px] font-poppins font-light mt-8'>A 3-Month Empowerment Journey designed to rewire your brain and transform your inner landscape, empowering you to thrive in all areas of your life.</p>
