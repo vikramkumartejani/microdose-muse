@@ -35,9 +35,7 @@ const Navbar = () => {
           alt="Logo"
           width={321}
           height={83}
-          loading="lazy"
           className="md:w-[321px] w-[250px]"
-          data-aos="zoom-in"
         />
 
         {/* Log In Button */}
