@@ -35,12 +35,10 @@ const TakeMyFreeAssessment = () => {
           </button>
         </div>
         <div className='-pr-[100px]'>
-          <Image
-            src="/assets/assessment.svg"
+          <img
+            src="/assets/assessment.webp"
             alt="assessment"
-            width={900}
-            height={700}  
-            className='lg:h-[900px] lg:w-[900px] w-full h-full'
+            className=' '
           />
         </div>
       </div>

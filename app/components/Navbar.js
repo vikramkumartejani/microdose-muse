@@ -31,15 +31,11 @@ const Navbar = () => {
 
         {/* Logo */}
         <Image
-          src="/assets/logo.svg"
+          src="/assets/logo.webp"
           alt="Logo"
           width={321}
           height={83}
           className="md:w-[321px] w-[250px]"
-           decoding="async"
-            data-nimg="1"
-            style="color:transparent"
-            loading="lazy"
         />
 
         {/* Log In Button */}
