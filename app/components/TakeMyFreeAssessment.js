@@ -5,7 +5,7 @@ const TakeMyFreeAssessment = () => {
   return (
     <div
       //  data-aos="fade-up"
-      className="relative lg:min-h-[120vh] md:min-h-[1300px] sm:min-h-[1080px] min-h-[990px] w-full bg-cover bg-center pt-96"
+      className="relative lg:min-h-[120vh] md:min-h-[1300px] min-h-[1120px] w-full bg-cover bg-center pt-96"
       style={{
         backgroundImage: "url('/assets/take-my-free-assessment.jpg')",
         backgroundAttachment: "fixed",
