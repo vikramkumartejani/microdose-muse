@@ -17,14 +17,14 @@ export default function Home() {
               alt="pan-left"
               width={284}
               height={363}
-              className="absolute -bottom-[350px] left-0 z-30"
+              className="absolute -bottom-[349px] left-0 z-30"
               />
             <Image
               src='/assets/pan-right.svg'
               alt="pan-right"
               width={284}
               height={363}
-              className="absolute -bottom-[350px] right-0 z-30"
+              className="absolute -bottom-[349px] right-0 z-30"
               />
           </div>
           <div className="flex items-center justify-center">
