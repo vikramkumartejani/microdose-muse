@@ -51,6 +51,7 @@ const Navbar = () => {
         <div
           className="fixed inset-0 flex flex-col items-center justify-center bg-black z-50 transition-transform transform"
           data-aos-delay="500"
+           data-aos="fade-right"
         >
           {/* Close Button */}
           <button

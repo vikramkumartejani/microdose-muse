@@ -8,7 +8,6 @@ import Head from 'next/head';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 
-
 export default function RootLayout({ children }) {
   useEffect(() => {
     AOS.init({ duration: 800 });
@@ -16,10 +15,13 @@ export default function RootLayout({ children }) {
 
   return (
     <html lang="en">
-      <Head>
-        <title>Microdose Muse</title>
-        <meta name="description" content="Microdose Muse" />
-      </Head>
+      <head>
+        <Head>
+          <title>Microdose Muse</title>
+          <meta name="description" content="Microdose Muse" />
+          <link rel="icon" href="/favicon.ico" />
+        </Head>
+      </head>
       <body>
         <Navbar />
         {children}

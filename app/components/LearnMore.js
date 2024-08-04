@@ -4,7 +4,7 @@ import React from 'react'
 const LearnMore = () => {
   return (
     <div className='w-full relative'>
-      <Image src='/assets/line-design.svg' alt="line-design" width={1920} height={107} className="w-full absolute top-0 z-30" />
+      <Image src='/assets/line-design.svg' alt="line-design" width={1920} height={107} className="w-full absolute top-0 z-30"  data-aos="fade-up"  />
       <div className='bg-thrive py-20 md:py-[170px] lg:py-[265px] w-full px-4'>
         <div className='bg-[#FFFFFFCC] border border-[#FFFFFF] max-w-[1232px] w-full mx-auto py-10 px-4 text-center'  data-aos="fade-up">
           <h2 className='text-[#454545] text-[45px] leading-[63px] font-alethia font-normal'>THRIVE</h2>

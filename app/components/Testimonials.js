@@ -47,7 +47,7 @@ const Testimonials = () => {
   };
   return (
     <div className='relative px-4 pt-0 pb-28 md:py-[60px] lg:py-[100px] overflow-hidden'>
-      <Image src='/assets/left.svg' alt='image' width={400} height={500} className=' absolute -top-[100px] -left-40 lg:left-0' />
+      <Image src='/assets/left.svg' alt='image' width={400} height={500} className=' absolute lg:-top-[100px] top-[-180px] -left-40 lg:left-0' />
       <Image src='/assets/right.svg' alt='image' width={400} height={500} className=' absolute top-[200px] -right-48 sm:-right-40 lg:right-0' />
 
       {/* Testimonials */}
