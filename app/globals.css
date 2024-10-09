@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap");
 
 @import "~slick-carousel/slick/slick.css";
 @import "~slick-carousel/slick/slick-theme.css";
@@ -56,13 +56,54 @@ body {
 }
 
 .bg-assessment {
-  background-image: url('/assets/take-my-free-assessment.jpg');
+  background-image: url("/assets/take-my-free-assessment.jpg");
   background-size: cover;
   background-position: center;
 }
 
 .text-custom-two {
-  background: linear-gradient(180deg, #855AF3 0%, #EC945F 100%);
+  background: linear-gradient(180deg, #855af3 0%, #ec945f 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+
+.custom-background {
+  background: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.35) 0%,
+      rgba(0, 0, 0, 0.35) 100%
+    ),
+    url("/assets/contact-us-bg.png") lightgray 50% / cover no-repeat;
+}
+
+.form-bg {
+  border-radius: 15px;
+  border: 2.25px solid var(--golden, #dcb88c);
+  background: rgba(255, 255, 255, 0.01);
+  backdrop-filter: blur(21.9375px);
+}
+
+.send-msg {
+  border-radius: 6px;
+  border: 0.75px solid var(--golden, #dcb88c);
+  background: var(--golden, #dcb88c);
+  box-shadow: 0px 0.75px 1.5px 0px rgba(16, 24, 40, 0.05);
+}
+
+.blog-one {
+  width: 632.37px;
+  height: 312.172px;
+  background-image: url("/assets/blog-one.svg");
+}
+
+.blog-two {
+  width: 306.555px;
+  height: 394.83px;
+  background-image: url("/assets/blog-two.svg");
+}
+
+.blog-three {
+  width: 306.555px;
+  height: 394.83px;
+  background-image: url("/assets/blog-three.svg");
 }

@@ -38,7 +38,7 @@ export default function Home() {
         <SignMeUpPlease data-aos="fade-up" />
         <LearnMore data-aos="fade-up" />
         <Testimonials data-aos="fade-up" />
-        <Footer data-aos="fade-up" />
+        <Footer />
       </main>
     </>
   );
