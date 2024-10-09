@@ -10,7 +10,7 @@ const ContactMe = () => {
         <div className="flex md:flex-row flex-col items-start gap-14 md:gap-7 lg:gap-10 xl:gap-[51px] w-full">
           <div className="text-white w-full md:max-w-[632px]">
             <h1 className='pb-[14.25px] font-alethia text-[30px] sm:text-[42px] font-normal'>Contact Me</h1>
-            <p className='text-[14px] sm:text-[16px] sm:leading-[25.6px] font-normal'>Whether you're curious about microdosing, interested in coaching, or simply have questions, I’m here to help. Let’s connect and explore how I can support your growth, transformation, and the life you're ready to create. Reach out today—I’d love to hear from you!</p>
+            <p className='text-[14px] sm:text-[16px] sm:leading-[25.6px] font-normal'>Whether you&apos;re curious about microdosing, interested in coaching, or simply have questions, I&apos;m here to help. Let&apos;s connect and explore how I can support your growth, transformation, and the life you&apos;re ready to create. Reach out today—I&apos;d love to hear from you!</p>
             <div className='mt-8 sm:mt-[50px] flex items-center gap-3 sm:gap-8'>
               <Image src='/assets/tabler_mail-filled.svg' alt='lsdm' width={37.5} height={37.5} />
               <div>
@@ -21,7 +21,7 @@ const ContactMe = () => {
           </div>
           <form className="form-bg text-white py-10 md:py-[78.75px] w-full md:max-w-[561px] text-center px-4 sm:px-7 lg:px-10 xl:px-[61px]">
             <h1 className='font-alethia text-[30px] sm:text-[40px] font-normal pb-[15px] leading-normal'>Ask a Question</h1>
-            <p className='text-[14px] sm:text-[16px] sm:leading-[22.5px] font-normal mb-[18px]'>I'd love to hear from you. Please fill out this form.</p>
+            <p className='text-[14px] sm:text-[16px] sm:leading-[22.5px] font-normal mb-[18px]'>I&apos;d love to hear from you. Please fill out this form.</p>
             <div className='w-full flex sm:flex-row flex-col gap-[18px] sm:gap-6'>
               <div className='w-full flex items-start flex-col gap-[4.5px]'>
                 <label htmlFor='name' className='text-[12px] font-normal'>First name</label>
