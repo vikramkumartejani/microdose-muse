@@ -5,11 +5,12 @@ import LearnMore from "./components/LearnMore";
 import Testimonials from "./components/Testimonials";
 import Footer from "./components/Footer";
 import Image from "next/image";
+import Banner from "./components/Banner";
 
 export default function Home() {
   return (
     <>
-      <main className="pt-[120px] w-full">
+      <main className="pt-[70px] w-full">
         <div className="bg-black w-full min-h-screen flex items-center justify-center">
           <div className="md:block hidden">
             <Image
@@ -17,14 +18,14 @@ export default function Home() {
               alt="pan-left"
               width={284}
               height={363}
-              className="absolute -bottom-[349px] left-0 z-30"
+              className="absolute -bottom-[300px] left-0 z-30"
               />
             <Image
               src='/assets/pan-right.svg'
               alt="pan-right"
               width={284}
               height={363}
-              className="absolute -bottom-[349px] right-0 z-30"
+              className="absolute -bottom-[300px] right-0 z-30"
               />
           </div>
           <div className="flex items-center justify-center">
@@ -38,6 +39,7 @@ export default function Home() {
         <SignMeUpPlease data-aos="fade-up" />
         <LearnMore data-aos="fade-up" />
         <Testimonials data-aos="fade-up" />
+        <Banner data-aos="fade-up" />
         <Footer />
       </main>
     </>

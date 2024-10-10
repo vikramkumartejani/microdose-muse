@@ -11,6 +11,9 @@ const Navbar = () => {
     setIsMenuOpen(!isMenuOpen);
   };
 
+  const handleLinkClick = () => {
+    setIsMenuOpen(false); // Close the menu when a link is clicked
+  };
   return (
     <div className="bg-black w-full fixed top-0 z-40">
       {/* Navbar Container */}
@@ -30,12 +33,14 @@ const Navbar = () => {
         </button>
 
         {/* Logo */}
+        <Link href='/'>
         <Image
           src="/assets/microdose-logo.svg"
           alt="Logo"
           width={240}
           height={62}
-        />
+          />
+          </Link>
 
         {/* Log In Button */}
         <button
@@ -69,8 +74,8 @@ const Navbar = () => {
             >
               Log In
             </button>
-            <Link href='/contact-me' className='bg-[#DCB88C] flex items-center justify-center rounded-[10px] w-[178px] h-[58px] text-white text-[18px] leading-[18px] font-semibold'>Contact us</Link>
-            <Link href='/all-blogs' className='bg-[#DCB88C] flex items-center justify-center rounded-[10px] w-[178px] h-[58px] text-white text-[18px] leading-[18px] font-semibold'>All Blogs</Link>
+            <Link href='/contact-me' onClick={handleLinkClick} className='bg-[#DCB88C] flex items-center justify-center rounded-[10px] w-[178px] h-[58px] text-white text-[18px] leading-[18px] font-semibold'>Contact us</Link>
+            <Link href='/all-blogs' onClick={handleLinkClick} className='bg-[#DCB88C] flex items-center justify-center rounded-[10px] w-[178px] h-[58px] text-white text-[18px] leading-[18px] font-semibold'>All Blogs</Link>
           </div>
         </div>
       )}
