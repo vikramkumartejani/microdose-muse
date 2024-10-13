@@ -67,12 +67,18 @@ body {
   -webkit-text-fill-color: transparent;
 }
 
-.bg-take-my-free-assessment{
-  background-image: url('/assets/take-my-free-assessment.jpg')
+.bg-take-my-free-assessment {
+  background-image: url("/assets/take-my-free-assessment.jpg");
 }
 
-.bgoverlay{
-    background: 'linear-gradient(90deg, #002530 0%, #367667 164.1%)'
+.bgoverlay {
+  background: "linear-gradient(90deg, #002530 0%, #367667 164.1%)";
+}
+
+.bgcontentimage {
+  background-image: url("/assets/thrive-content-bg.jfif");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .custom-background {
@@ -84,12 +90,32 @@ body {
     url("/assets/contact-us-bg.png") lightgray 50% / cover no-repeat;
 }
 
+.bgmicrodosemuse {
+  background-image: url("/assets/microdose-muse.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bg-image-one{
+  background-image: url("/assets/psychedelics.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bg-image-two{
+  background-image: url("/assets/image3.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .form-bg {
   border-radius: 15px;
   border: 2.25px solid var(--golden, #dcb88c);
   background: rgba(255, 255, 255, 0.01);
   backdrop-filter: blur(21.9375px);
 }
+
+
 
 .send-msg {
   border-radius: 6px;

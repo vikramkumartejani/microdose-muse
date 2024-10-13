@@ -76,6 +76,7 @@ const Navbar = () => {
             </button>
             <Link href='/contact-me' onClick={handleLinkClick} className='bg-[#DCB88C] flex items-center justify-center rounded-[10px] w-[178px] h-[58px] text-white text-[18px] leading-[18px] font-semibold'>Contact us</Link>
             <Link href='/all-blogs' onClick={handleLinkClick} className='bg-[#DCB88C] flex items-center justify-center rounded-[10px] w-[178px] h-[58px] text-white text-[18px] leading-[18px] font-semibold'>All Blogs</Link>
+            <Link href='/coaching' onClick={handleLinkClick} className='bg-[#DCB88C] flex items-center justify-center rounded-[10px] w-[178px] h-[58px] text-white text-[18px] leading-[18px] font-semibold'>Coaching</Link>
           </div>
         </div>
       )}
