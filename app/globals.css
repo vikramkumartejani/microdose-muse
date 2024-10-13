@@ -67,6 +67,14 @@ body {
   -webkit-text-fill-color: transparent;
 }
 
+.bg-take-my-free-assessment{
+  background-image: url('/assets/take-my-free-assessment.jpg')
+}
+
+.bgoverlay{
+    background: 'linear-gradient(90deg, #002530 0%, #367667 164.1%)'
+}
+
 .custom-background {
   background: linear-gradient(
       0deg,

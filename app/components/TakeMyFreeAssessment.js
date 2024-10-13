@@ -3,50 +3,47 @@ import React from "react";
 
 const TakeMyFreeAssessment = () => {
   return (
-    <div
-      //  data-aos="fade-up"
-      className="relative lg:min-h-[120vh] md:min-h-[1300px] min-h-[1120px] w-full bg-cover bg-center pt-96"
-      style={{
-        backgroundImage: "url('/assets/take-my-free-assessment.jpg')",
-        backgroundAttachment: "fixed",
-      }}
-    >
-      <div className="absolute inset-0 bg-custom opacity-70"></div>{" "}
-      {/* Changed bg-custom to bg-black */}
-      <div className="absolute inset-0 flex lg:flex-row flex-col items-center gap-10 md:gap-20 lg:gap-0 justify-center text-white px-5 sm:px-10 xl:pl-12 2xl:pl-16 py-24"
-            data-aos="fade-up">
+    <div className="relative w-full bg-cover bg-center bg-take-my-free-assessment py-[60px] md:py-[123px] px-4 md:px-10 lg:px-12 xl:px-16">
+      {/* Background Overlay with Linear Gradient */}
+      <div className="absolute inset-0 bg-custom opacity-70" ></div>
+
+      <div className="relative z-20 flex lg:flex-row flex-col lg:items-center gap-10 sm:gap-20 lg:gap-10 justify-center text-white" data-aos="fade-up">
         <div>
-          <h1 className="text-3xl md:text-4xl 2xl:text-5xl leading-snug font-alethia font-normal mb-2 mt-5">
-            Welcome to Microdose Muse!
-          </h1>
-          <p className="text-xl 2xl:text-3xl font-poppins leading-relaxed font-light mt-2">
+          <h1 className="text-[24px] sm:text-[40px] leading-normal font-normal font-alethia">Welcome to Microdose Muse!</h1>
+          <p className="mt-2 md:mt-0 text-[18px] sm:text-[22px] font-poppins leading-normal font-light">
             Transformation coaching with psychedelics and mindset mastery.
           </p>
-          <ul className="text-left xl:my-10 2xl:my-20 flex flex-col gap-2 md:gap-4 py-5 xl:py-10">
-            <li className="text-xl 2xl:text-3xl leading-relaxed font-poppins font-light">
+          <ul className="text-left my-7 sm:my-12 xl:mt-[66px] xl:mb-[78px] flex flex-col gap-4">
+            <li className="text-[18px] sm:text-[22px] leading-normal font-poppins font-light">
               ✨ Discover profound personal growth and transformation.
             </li>
-            <li className="text-xl 2xl:text-3xl leading-relaxed font-poppins font-light">
+            <li className="text-[18px] sm:text-[22px] leading-normal font-poppins font-light">
               ✨ Experience radical shifts in consciousness, safely.
             </li>
-            <li className="text-xl 2xl:text-3xl leading-relaxed font-poppins font-light">
+            <li className="text-[18px] sm:text-[22px] leading-normal font-poppins font-light">
               ✨ Balance inward reflection with outward action.
             </li>
           </ul>
-          <p className="mb-4 text-xl 2xl:text-3xl leading-relaxed font-poppins font-light">
+          <p className="text-[18px] sm:text-[22px] leading-normal font-poppins font-light">
             Ready to find out if microdosing is for you?
           </p>
-          <button className="w-[321px] h-[62px] bg-[#DCB88C] rounded-xl text-white text-lg font-medium">
+          <button className="mt-4 w-[241px] h-[46px] bg-[#DCB88C] rounded-lg text-white text-[16px] font-medium">
             Take My Free Assessment
           </button>
         </div>
-        <div className="-pr-[100px]">
+        <div className="relative flex items-center justify-center">
           <Image
             src="/assets/assessment.svg"
             alt="assessment"
-            width={100}
-            height={100}
-            className="lg:h-[900px] lg:w-[900px] w-full h-full"
+            width={550}
+            height={550}
+          />
+          <Image
+            src="/assets/mushroom.svg"
+            alt="assessment"
+            width={112}
+            height={190}
+            className=' absolute left-0 bottom-0 w-[80px] md:w-[112px] md:h-[190px]'
           />
         </div>
       </div>

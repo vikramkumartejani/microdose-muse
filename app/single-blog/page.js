@@ -39,7 +39,7 @@ const SingleBlog = () => {
         <div className='pt-[120px] md:pt-[140px] pb-[40px] md:pb-[89px] w-full px-4 lg:px-20 2xl:px-40'>
             <p className='text-center text-[#454545] text-[28px] sm:text-[40px] leading-normal font-alethia font-normal'>The Essential Guide To  Peaceful Life</p>
             <div>
-                <Image src='/assets/blog-five.png' alt='singal-blog' width={1284} height={421} className='min-h-[200px] my-5 md:my-10' />
+                <Image src='/assets/blog-five.png' alt='singal-blog' width={1284} height={421} className='min-h-[200px] mx-auto w-full my-5 md:my-10' />
                 <div className='max-w-[1066px] mx-auto w-full'>
                     <div className='flex items-center flex-col justify-center gap-[5px]'>
                         <Image src='/assets/leslie-alexander.svg' alt='leslie-alexande' width={67} height={67} />
