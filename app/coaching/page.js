@@ -46,7 +46,7 @@ const Coaching = () => {
 
             <div className='bgcommitted-to-helping w-full py-[50px]'>
                 <div className='bg-image-five w-full py-[50px] sm:py-[70px] px-4'>
-                    <p className='text-white text-[25px] sm:text-[32px] sm:leading-[51px] font-alethia font-normal max-w-[1000px] mx-auto text-center'>I'm committed to helping you balance deep emotional work with intentional actions that create the change you seek.</p>
+                    <p className='text-white text-[25px] sm:text-[32px] sm:leading-[51px] font-alethia font-normal max-w-[1000px] mx-auto text-center'>I&lsquo;m committed to helping you balance deep emotional work with intentional actions that create the change you seek.</p>
                 </div>
             </div>
 
