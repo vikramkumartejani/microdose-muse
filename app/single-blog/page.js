@@ -121,9 +121,9 @@ const SingleBlog = () => {
             {/* Related Articles */}
             <div className='mt-6 sm:mt-[35px]'>
                 <h2 data-aos="fade-right" className='text-[#454545] font-alethia text-[20px] sm:text-[24px] leading-[38px] font-normal mb-[14px] sm:mb-[18px]'>Related Articles</h2>
-                <div className='grid grid-cols-2 lg:grid-cols-4 gap-3 sm:gap-5' data-aos="fade-up">
+                <div className='grid grid-cols-2 lg:grid-cols-4 gap-3 sm:gap-5'>
                     {relatedArticles.map((post) => (
-                        <div key={post.id} className='w-full rounded-lg shadow-lg overflow-hidden relative group'>
+                        <div key={post.id}  data-aos="fade-up" className='w-full rounded-lg shadow-lg overflow-hidden relative group'>
                             <img src={post.image} alt='blog-image' className="w-full h-[250px] sm:h-[370px] object-cover " />
                             <div className="w-full absolute bottom-0 h-full flex items-end justify-end flex-col px-2 sm:px-5 py-3 sm:py-4 ">
                                 <div className='min-w-full w-full flex items-center justify-between flex-col gap-1'>

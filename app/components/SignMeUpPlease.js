@@ -3,7 +3,7 @@ import React from 'react'
 
 const SignMeUpPlease = () => {
   return (
-    <div className='w-full imgbg relative pt-[92px] pb-[133px] flex items-center justify-end px-4 sm:px-8 lg:px-12 xl:px-16'>
+    <div className=' overflow-hidden w-full imgbg relative pt-[92px] pb-[133px] flex items-center justify-end px-4 sm:px-8 lg:px-12 xl:px-16'>
       <div className='flex items-center lg:items-start lg:flex-row flex-col gap-16 xl:gap-24 mb-[220px] lg:mb-0'>
         <Image src='/assets/book1.png' alt='Book' width={309} height={437} className=' rounded-[15px] shadow-custom -rotate-2 relative z-20' data-aos="fade-up" />
         <div className='w-full' data-aos="fade-up">
@@ -12,7 +12,7 @@ const SignMeUpPlease = () => {
           <button className='mt-7 bg-[#DCB88C] w-[160px] sm:w-[184px] h-[40px] sm:h-[52px] rounded-lg text-white text-[14px] sm:text-[16px] font-medium'>Sign Me Up Please</button>
         </div>
       </div>
-      <Image src='/assets/tree.svg' alt='Tree' width={290} height={304} className='absolute bottom-0 left-0'  />
+      <Image src='/assets/tree.svg' alt='Tree' width={290} height={304} className='absolute bottom-0 left-0'data-aos="fade-right"  />
     </div>
   )
 }
