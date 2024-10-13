@@ -20,6 +20,10 @@ module.exports = {
       },
       boxShadow:{
         custom: '0px -16px 40px 0px #0000001F',
+      },
+      rotate: {
+        '17': '20deg',
+        '210': '210deg',
       }
     },
   },

@@ -96,14 +96,61 @@ body {
   background-size: cover;
 }
 
-.bg-image-one{
+.bg-image-one {
   background-image: url("/assets/psychedelics.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-.bg-image-two{
+.bgcoaching-hero {
+  background-image: url("/assets/coaching-hero-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bg-needed-a-mouse {
+  background-image: url("/assets/needed-a-muse.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bg-iam-amanda{
+  background-image: url("/assets/iam-amanda.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bg-image-two {
   background-image: url("/assets/image3.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bg-image-three {
+  background-image: url("/assets/bg-image-two.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bg-image-four {
+  background-image: url("/assets/bg-4.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bg-image-five {
+  background-image: url("/assets/Rectangle 1442.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@media screen and (max-width: 768px) {
+  .bg-image-five {
+    background-position: center
+  }
+}
+.bgcommitted-to-helping {
+  background-image: url("/assets/committed-to-helping.jfif");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -114,8 +161,6 @@ body {
   background: rgba(255, 255, 255, 0.01);
   backdrop-filter: blur(21.9375px);
 }
-
-
 
 .send-msg {
   border-radius: 6px;
