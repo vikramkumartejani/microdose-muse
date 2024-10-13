@@ -45,7 +45,7 @@ const Navbar = () => {
         {/* Log In Button */}
         <button
           className="hidden md:block bg-[#DCB88C] rounded-[7.5px] w-[133px] h-[43.5px] text-white text-[16px] leading-[16px] font-semibold"
-          data-aos="fade-bottom"
+          // data-aos="fade-bottom"
         >
           Log In
         </button>

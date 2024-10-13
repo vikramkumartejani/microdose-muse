@@ -47,8 +47,8 @@ const Testimonials = () => {
   };
   return (
     <div className=' overflow-hidden relative px-4'>
-      <Image src='/assets/left.svg' alt='image' width={250} height={300} className='absolute -top-[120px] md:-top-[50px] -left-[80px] lg:-left-0' />
-      <Image src='/assets/right.svg' alt='image' width={250} height={300} className='absolute top-[150px] -right-[130px] md:-right-[80px] lg:-right-0 ' />
+      <Image src='/assets/left.svg' data-aos="fade-right" alt='image' width={250} height={300} className='absolute -top-[120px] md:-top-[50px] -left-[80px] lg:-left-0' />
+      <Image src='/assets/right.svg' data-aos="fade-left" alt='image' width={250} height={300} className='absolute top-[150px] -right-[130px] md:-right-[80px] lg:-right-0 ' />
       {/* data-aos="fade-up" */}
       {/* Testimonials */}
       <div className='relative' >

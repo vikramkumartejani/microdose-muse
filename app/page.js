@@ -53,8 +53,8 @@ export default function Home() {
 
         <TakeMyFreeAssessment data-aos="fade-up" />
         <BookAFreeConsultation data-aos="fade-up" />
-        <SignMeUpPlease />
-        <LearnMore />
+        <SignMeUpPlease  data-aos="fade-up" />
+        <LearnMore  data-aos="fade-up" />
         <Testimonials data-aos="fade-up" />
         <Banner data-aos="fade-up" />
         <Footer />
