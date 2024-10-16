@@ -5,7 +5,7 @@ const IamAmanda = () => {
     return (
         <div className='overflow-hidden'>
             <div>
-                <Image src='/assets/13810786_5350939 1 (1).svg' alt='line' width={10000} height={80} />
+                <Image src='/assets/13810786_5350939 1.png' alt='line' width={10000} height={80} />
             </div>
             <div className='bg-iam-amanda w-full py-[40px] md:py-[80px] relative overflow-hidden'>
                 {/* Overlay */}
@@ -20,7 +20,7 @@ const IamAmanda = () => {
                         <Image src='/assets/leaf-im.svg' alt='leaf-im' width={193} height={233} className='sm:block hidden' data-aos="fade-left" />
                     </div>
                     <div data-aos="fade-up" className='mt-10 sm:mt-[90px] mx-auto w-full max-w-[936px]'>
-                        <Image src='/assets/female-image.svg' alt='female-image' width={936} height={417} />
+                        <Image src='/assets/female-image.png' alt='female-image' width={936} height={417} />
                     </div>
                     <h2 data-aos="fade-up" className='mt-6 sm:mt-12 max-w-[607px] mx-auto w-full text-[22px] sm:text-[30px] sm:leading-[48px] font-alethia font-normal italic text-center'>Ready to create profound shifts in your thinking, habits, and daily experience?</h2>
                     <div data-aos="fade-up" className='flex items-center justify-center w-full mt-4 sm:mt-6'>

@@ -53,8 +53,8 @@ const Coaching = () => {
             {/* Microdose Muse */}
             <div className='bgmicrodosemuse py-[50px] md:pb-[74px] md:pt-[110px] w-full px-4 md:px-10'>
                 <div className='mb-8 md:mb-20 w-full max-w-[1017px] mx-auto grid grid-cols-1 sm:grid-cols-2 gap-8 md:gap-[60px]'>
-                    <Image src='/assets/image1.svg' alt='image' width={478} height={294} data-aos="fade-right" />
-                    <Image src='/assets/image2.svg' alt='image' width={478} height={294} data-aos="fade-left" />
+                    <Image src='/assets/attachmentfff.png' alt='image' width={478} height={294} data-aos="fade-right" />
+                    <Image src='/assets/IMG_1116.png' alt='image' width={478} height={294} data-aos="fade-left" />
                 </div>
                 <h2 data-aos="fade-up" className='text-[16px] sm:text-[24px] font-normal sm:leading-[38px] text-white text-center max-w-[1000px] mx-auto'>Outside of mushrooms and exploring the inner terrains of consciousness, I love gardening, espresso, being a Mama to baby boy Sol, and adventuring with my life partner Basil.</h2>
                 <h2 data-aos="fade-up" className='mt-4 text-[#DCB88C] text-[20px] sm:text-[24px] leading-[38px] font-medium text-center'>-Microdose Muse</h2>

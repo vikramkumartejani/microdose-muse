@@ -5,7 +5,7 @@ const BeforeAfterPsychedelics = () => {
   return (
     <div className='overflow-hidden'>
       <div>
-        <Image src='/assets/psychedelics-topbar.svg' alt='profile-one' width={14000} height={729} className='-mb-0.5' />
+        <Image src='/assets/psychedelics-topbar.png' alt='profile-one' width={14000} height={729} className='-mb-0.5' />
         <div className='w-full bg-image-one py-[50px] sm:py-[60px] text-center px-4'>
           <h2 data-aos="fade-up" className='text-[25px] sm:text-[32px] sm:leading-[51px] max-w-[600px] mx-auto font-alethia text-white'>I view my life as before psychedelics, and after psychedelics.</h2>
         </div>
@@ -30,7 +30,7 @@ const BeforeAfterPsychedelics = () => {
 
 
       <div className='-mt-1 w-full bg-image-four flex lg:items-center lg:flex-row flex-col justify-between gap-10 xl:gap-20 relative'>
-        <Image data-aos="fade-right" src='/assets/profile-image-three.svg' alt='profile-one' width={706} height={729} className='xl:w-[706px] w-[600px]' />
+        <Image data-aos="fade-right" src='/assets/profile-image-three.png' alt='profile-one' width={706} height={729} className='xl:w-[706px] w-[600px]' />
         <div className='lg:max-w-[600px] mx-auto px-4 md:px-10 lg:pr-[40px] xl:pr-[127px] pt-[20px] pb-[40px] sm:pt-[40px] sm:pb-[60px] lg:py-[100px]'>
           <p data-aos="fade-left" className='text-[18px] sm:text-[24px] leading-normal font-normal font-poppins text-white'>As a coach, I help you get clear on your desires, purpose and dreams... and with that clarity as your muse, support you as you uncover and release inner blocks and subconscious patterning... and ultimately live an expanded, more fulfilled life.</p>
         </div>

@@ -12,7 +12,7 @@ const SignMeUpPlease = () => {
           <button className='mt-7 bg-[#DCB88C] w-[160px] sm:w-[184px] h-[40px] sm:h-[52px] rounded-lg text-white text-[14px] sm:text-[16px] font-medium'>Sign Me Up Please</button>
         </div>
       </div>
-      <Image src='/assets/tree.svg' alt='Tree' width={290} height={304} className='absolute bottom-0 left-0'data-aos="fade-right"  />
+      <Image src='/assets/tree.png' alt='Tree' width={290} height={304} className='absolute bottom-0 left-0'data-aos="fade-right"  />
     </div>
   )
 }

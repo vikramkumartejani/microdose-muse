@@ -11,7 +11,7 @@ const Banner = () => {
                         <p className='lg:max-w-[585px] text-white font-poppins text-[16px] sm:text-[18px] font-normal text-balance'>Get my MUSINGS sent to your inbox twice a month, I’ll be diving into topics like the science of microdosing, new paradigms of transformation in mental health, the indigenous roots of psychedelic practice, and tips on how to integrate psychedelic journeys.</p>
                         <button className='bg-[#DCB88C] mt-3 text-white text-[16px] font-medium w-[162px] h-[50px] rounded-[5px]'>Yes, please!</button>
                     </div>
-                    <Image src='/assets/female.svg' alt='Female' width={295} height={287} data-aos="fade-left" />
+                    <Image src='/assets/female.png' alt='Female' width={295} height={287} data-aos="fade-left" />
                 </div>
             </div>
         </div>

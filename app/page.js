@@ -18,6 +18,8 @@ export default function Home() {
             loop
             muted
             playsInline
+            preload="auto"
+            loading="lazy"
             className="absolute top-0 left-0 w-full h-full object-cover"
           >
             <source src="/assets/MMHeaderVideoMobile.mp4" type="video/mp4" />

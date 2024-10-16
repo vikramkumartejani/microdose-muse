@@ -33,7 +33,7 @@ const TakeMyFreeAssessment = () => {
         </div>
         <div className="relative flex items-center justify-center">
           <Image
-            src="/assets/assessment.svg"
+            src="/assets/assessment.png"
             alt="assessment"
             width={550}
             height={550}
